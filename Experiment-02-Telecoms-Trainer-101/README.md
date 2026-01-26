@@ -1,106 +1,68 @@
-# 🧪 Experiment No. 2  
-## 🎛️ Introduction to the Telecoms-Trainer 101
+# 🧪 Experiment 2: Telecoms-Trainer 101
 
 ---
 
-### 📌 Objective
-- Familiarize with key modules of the Telecoms-Trainer 101.  
-- Measure amplitude, period, frequency, and phase difference of signals.  
-- Understand signal combination (Adder), phase shifting, and VCO control.  
+## 📌 Objective
+- Understand modules of the Telecoms-Trainer 101.  
+- Measure amplitude, period, frequency, and phase difference.  
+- Explore signal combination, phase shifting, and VCO control.
 
 ---
 
-### 📖 Introduction
-The **Telecoms-Trainer 101** is a modular analog communications lab trainer that allows students to simulate and study fundamental analog communication circuits. It includes modules for generating signals, summing inputs, adjusting phase, buffering, and controlling frequency through a VCO.  
+## 📖 Introduction
+The **Telecoms-Trainer 101** demonstrates analog communication fundamentals. It provides modules for **signal generation, summation, phase shifting, buffering, and frequency control**.  
 
 **Theoretical Background:**  
-1. **Signal Amplitude (Vpp)** – Represents the voltage range of the signal.  
-2. **Phase Difference (\(\phi\))** – The time shift between two signals of the same frequency:  
-\[
-\phi = \frac{\text{time difference}}{\text{period}} \times 360^\circ
-\]  
-3. **Adder Module** – Combines multiple signals into a single output using gain coefficients:  
-\[
-V_\text{out} = A \cdot V_A + B \cdot V_B
-\]  
-4. **Phase Shifter** – Introduces controlled phase shifts to a signal.  
-5. **Voltage-Controlled Oscillator (VCO)** – Produces a frequency output proportional to an input voltage:  
-\[
-f_\text{out} = f_\text{center} + K_v V_\text{control}
-\]
+1. **Amplitude (Vpp)** – Signal voltage range.  
+2. **Phase Difference (φ)** – Time shift between signals:  
+3. **Adder Module:**  Vout = A × V_A + B × V_B
+4. **Phase Shifter:**  V_out = V_m × sin(2πf t + φ + θ)
 
-Understanding these concepts helps analyze **signal propagation, modulation, and synchronization**, which are key in telecommunications systems.
 
 ---
 
-### 🧰 Materials
-- Telecoms-Trainer 101 with power supply  
-- Dual-channel oscilloscope (≥ 20 MHz)  
+## 🧰 Materials
+- Telecoms-Trainer 101  
+- Dual-channel oscilloscope (≥20 MHz)  
 - Patch cords  
 - Headphones (optional)  
 - Calculator  
 
 ---
 
-### 🔬 Procedure
-**Part 1 — Master Signals**
-1. Connect master sine wave outputs to CH1.  
-2. Measure amplitude (Vpp), period, and frequency.  
+## 🔬 Procedure
+1. **Master Signals:** Connect outputs to CH1, measure amplitude, period, frequency.  
+2. **Phase Difference:** Connect sine to CH1, cosine to CH2, measure phase difference using formula above.  
+3. **Speech Module:** Observe waveform with different vocal inputs.  
+4. **Buffer Module:** Adjust gain, observe output amplitude.  
+5. **Adder Module:** Combine inputs A and B, vary gain, observe output.  
+6. **Phase Shifter Module:** Apply input, adjust phase, observe lead/lag behavior.  
+7. **VCO Module:** Apply control voltage, measure frequency:  
 
-**Part 2 — Phase Difference**
-1. Connect sine and cosine outputs to CH1 and CH2.  
-2. Measure phase difference using waveform alignment:  
-\[
-\phi = \frac{\text{divisions difference}}{\text{period divisions}} \times 360^\circ
-\]  
-
-**Part 3 — Speech Module**
-1. Connect speech output to CH1.  
-2. Observe waveform shape and note variations in amplitude.  
-
-**Part 4 — Buffer Module**
-1. Connect signal to Buffer module.  
-2. Adjust gain and observe output amplitude.  
-
-**Part 5 — Adder Module**
-1. Connect signals to inputs A and B.  
-2. Vary gain and observe summed output:  
-\[
-V_\text{out} = A \cdot V_A + B \cdot V_B
-\]  
-
-**Part 6 — Phase Shifter**
-1. Apply input signal.  
-2. Adjust phase control and observe lead/lag behavior.  
-
-**Part 7 — VCO Module**
-1. Apply DC control voltage.  
-2. Measure frequency output:  
-\[
-f_\text{out} = f_\text{center} + K_v V_\text{control}
-\]  
 
 ---
 
-### 📊 Observations
-- Master Signals provided stable references.  
-- Phase shifts were measurable and consistent with settings.  
-- Adder outputs followed theoretical summation.  
-- VCO frequency varied linearly with control voltage.
+## 📊 Observations
+- Master Signals stable and measurable.  
+- Phase shifts were adjustable.  
+- Adder outputs matched expected summation.  
+- VCO frequency responded linearly to voltage.
 
 ---
 
-### 🧠 Discussion
-This experiment reinforces the theory of **linear systems, signal combination, and frequency control**. Accurate measurements rely on proper oscilloscope settings and module calibration. Practical understanding of phase, amplitude, and frequency relationships is essential in signal processing and communications systems.
+## 🧠 Discussion
+This lab bridges theory and practice for **linear systems, phase manipulation, and frequency control**. Accurate measurements depend on correct oscilloscope use.
 
 ---
 
-### ✅ Conclusion
-- Students gained hands-on experience with key analog communications modules.  
-- Observed outputs confirmed theoretical expectations.
+## ✅ Conclusion
+- Hands-on experience reinforced theoretical understanding.  
+- Observed outputs matched predictions for amplitude, phase, and frequency.
 
 ---
 
-### ✍️ Reflection
-Connecting theoretical models to practical module outputs strengthened my understanding of **signal analysis, modulation, and frequency control** in analog communication systems.
+## ✍️ Reflection
+Observing signals and controlling modules deepened my understanding of analog communications and oscilloscope measurement.
+
+
 
